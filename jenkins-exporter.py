@@ -13,3 +13,8 @@ from prometheus_client.core import GaugeMetricFamily, REGISTRY
 import logging
 from pythonjsonlogger import jsonlogger
 
+faulthandler.enable()
+
+class JenkinsApiClient():
+    def __init__(self, config)
+    
